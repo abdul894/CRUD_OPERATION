@@ -17,4 +17,12 @@ if(isset($_POST['addUsers'])) {
 
 }
 
+if(isset($_POST['deleteUsers'])) {
+    
+    $id = $_POST['id'];
+
+    mysqli_query($con, "DELETE FROM crudoperation WHERE id = '$id'");
+    header('location:index.php');
+}
+
 ?>
