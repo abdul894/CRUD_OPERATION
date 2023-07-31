@@ -4,6 +4,7 @@ This web-based tool is designed to help you manage your data efficiently. With t
 
 Technologies Used:
 PHP: Server-side scripting language for dynamic functionality.
+HTML: Markup language for structuring the web pages.
 Bootstrap: Front-end framework for responsive and user-friendly design.
 
 Features:
